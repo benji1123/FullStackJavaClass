@@ -1,4 +1,7 @@
 
+// Source:
+// https://beginnersbook.com/2013/03/multithreading-in-java/
+
 public class Count extends Thread {
 	Count(){
 		super("my extending thread");
@@ -31,6 +34,10 @@ class ExtendingExample{
 			System.out.println("Main thread interrupted");
 		}
 		System.out.println("Main thread over");
+
+		// example of Thread obj
+		Thead t = new Thread(obj);
+		t.start();
 	}
 }
 
