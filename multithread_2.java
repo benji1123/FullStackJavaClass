@@ -1,5 +1,3 @@
-package udemy_oop.main;
-
 public class Count implements Runnable{
 	public void run() {
 		try {
