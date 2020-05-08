@@ -26,9 +26,10 @@ public class servelet_one extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		// console output
 		System.out.println("bonjour monde");
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		// HTML on frontend
+		response.getWriter().println("<h1>Bonjour Monde!</h1>");
 	}
 
 }
